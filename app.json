@@ -1,0 +1,31 @@
+{
+  "name": "bot name",
+  "description": "Javascript WhatsApp bot made by bot name",
+  "logo": "https://pomf2.lain.la/f/uzu4feg.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "𝕙𝕖𝕪 🅁🄾🄲🄷🄰🄽🄰 🄼🄳 𝒑𝒐𝒘𝒆𝒓𝒇𝒖𝒍 ｗｈａｔｓａｐｐ   𝚋𝚘𝚝 𝚒𝚜 𝗮𝗹𝗶𝘃𝗲 𝘯𝘰𝘸",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
